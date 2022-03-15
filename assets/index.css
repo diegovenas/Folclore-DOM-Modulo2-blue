@@ -1,0 +1,110 @@
+body{
+    
+    height: 1366px;
+    width: 768px;
+    background-image: url(https://baixarpapeldeparede.com/web/wallpapers/wallpaper-hd-brasil-31/1366x768.jpg);
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+header{
+    background-color:rgba(36, 37, 53, 0.705) ;
+}
+
+main{
+    padding: 1rem 0 5rem 0;
+}
+h1{
+    color: rgb(150, 245, 9);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+p{
+    color: rgb(150, 245, 9);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 900;
+
+}
+
+#button{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+button{
+    background-color: greenyellow;
+    width: 300px;
+    height: 80px;
+    border: 10px solid green;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    color:rgba(36, 37, 53, 0.918) ;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+
+}
+
+button:hover{
+    background-color: rgb(171, 248, 56);
+    border: 10px solid rgb(7, 185, 7);
+}
+
+.container p{
+        color: white;
+        font-size: 30px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-style: italic;
+}
+
+.container h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(255, 255, 255) ;
+    
+}
+
+.container img{
+    width: 250px;
+    height: 250px;
+    border-radius: 5%;
+}
+
+.container div{
+
+    width: 600px;
+    background-color: rgba(36, 37, 53, 0.918);
+    padding: 50px;
+    box-shadow: 0 0 3em white;
+
+}
+
+
+.container{
+    display: flex;
+    
+    padding: 30px 0 30px 0;
+   justify-content: space-evenly;
+   
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    text-align: center;
+
+}
+
